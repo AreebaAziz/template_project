@@ -32,8 +32,8 @@ cd template_project
 Set up a virtual environment:
 ```
 mkdir env
-python3 -m venv env
-env/bin/activate
+python3.7 -m venv env
+. env/bin/activate
 ```
 
 Install modules:
