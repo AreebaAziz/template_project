@@ -40,9 +40,10 @@ Install modules:
 ```
 pip install -r requirements.txt
 cd frontend
-npm install admin-lte --save
+npm install admin-lte --save 
 cd ..
 ```
+(Note - check out Admin-LTE's website for alternative methods of installation.)
 
 Create database and superuser:
 ```
