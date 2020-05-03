@@ -6,4 +6,4 @@ def index(request):
 
 @login_required(login_url='/login')
 def base_dashboard(request):
-	return render(request, "base_dashboard.html", context={'user': request.user})
+	return render(request, "dashboard.html", context={'user': request.user})
